@@ -1,15 +1,15 @@
 # testMusicTrackerAPI
 
-# 🎵 Music Tracker API
+#  Music Tracker API
 A simple RESTful API for managing songs and playlists built using Node.js and DBrowser(SQLite). This project includes full unit, integration, and API tests using Jest and Supertest.
 
-## 🚀 API Features
+##  API Features
 - Add new songs (title, artist, genre)
 - View all songs
 - Create playlists
 - View all playlists
 
-## 🛠 Tech Stack
+##  Tech Stack
 | Layer       | Technology     |
 |-------------|----------------|
 | Backend     | Node.js, Express |
@@ -17,7 +17,7 @@ A simple RESTful API for managing songs and playlists built using Node.js and DB
 | Testing     | Jest, Supertest |
 | Frontend    | HTML + CSS (basic form) |
 
-## 📂 Folder Structure
+##  Folder Structure
 Music Tracker API/
 ├── server.js
 ├── db.js
@@ -35,7 +35,7 @@ Music Tracker API/
 ├── package.json
 └── README.md
 
-## 🧪 How to Run the Project
+##  How to Run the Project
 ### 1. Clone the repo
 
 ```bash
@@ -53,19 +53,27 @@ API will be available at http://localhost:5000
 npm test
 This runs all unit, integration, and API tests and shows a coverage report.
 
-🧪 Testing Tools Used
+ Testing Tools Used
 | Tool          | Purpose                    |
 | ------------- | -------------------------- |
 | **Jest**      | Unit + integration testing |
 | **Supertest** | API endpoint testing       |
 
 
-✅ Test Coverage Screenshot
+Test Coverage Screenshot
 ![Test Coverage](<img width="749" alt="testss" src="https://github.com/user-attachments/assets/3f5239c5-c431-4ecd-9678-ede339f69992" />)
 
-💬 Feedback
-Feel free to raise issues or contribute improvements by creating pull requests. 😊
+Feedback
+Feel free to raise issues or contribute improvements by creating pull requests. 
 
-📄 License
+ License
 
 This project is open-source and available under the MIT License.
+
+## API Test Report (Keploy)
+![Keploy Test Report]
+<img width="934" alt="image" src="https://github.com/user-attachments/assets/1ed5ce89-31a4-4aec-aab0-72f1a379225e" />
+
+## CI/CD Integration
+Check the [Keploy CI/CD Configuration] :https://github.com/Ananya-te/MusicTrackerAPI/actions
+
